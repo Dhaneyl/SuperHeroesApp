@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const HeroCard = ({id, superhero, publisher, alter_ego, first_appearance,characters}) => 
 
 {
-      const heroImageUrl = `/assets/heroes/${id}.jpg`; 
+      const heroImageUrl = `/assets/heroes/heroes/${id}.jpg`; 
       const characterByHero= (<p>{characters}</p>);
   return (
 
