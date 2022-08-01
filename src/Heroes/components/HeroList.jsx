@@ -11,12 +11,12 @@ export const HeroList = ({publisher}) => {
     <div className='row rows-cols-1 row-cols-md-3 g-3'>
 
     { 
-      heroes.map(hero=>{
-       return  <HeroCard 
+      heroes.map(hero=>(
+       <HeroCard 
           key={hero.id}
           {...hero}
         />
-    })
+      ))
     
     }
 
